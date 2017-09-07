@@ -21,8 +21,8 @@
 </reading>
 
 <gap-fill>F2::
-<question-record><question></question><answer><text>inputbox, test</text><feedback></feedback><correct>1</correct></answer><clue></clue></question-record>                         ; &amp;#x0431;&amp;#x043B;&amp;#x043E;&amp;#x043A; &amp;#x0432;&amp;#x0432;&amp;#x043E;&amp;#x0434;&amp;#x0430; &amp;#x0442;&amp;#x0435;&amp;#x043A;&amp;#x0441;&amp;#x0442;&amp;#x0430; &amp;#x043F;&amp;#x043E;&amp;#x043B;&amp;#x044C;&amp;#x0437;&amp;#x043E;&amp;#x0432;&amp;#x0430;&amp;#x0442;&amp;#x0435;&amp;#x043B;&amp;#x0435;&amp;#x043C;
-<question-record><question></question><answer><text>if test =</text><feedback></feedback><correct>1</correct></answer><clue></clue></question-record>                                 ; &amp;#x0435;&amp;#x0441;&amp;#x043B;&amp;#x0438; &amp;#x0431;&amp;#x043B;&amp;#x043E;&amp;#x043A; &amp;#x043F;&amp;#x0443;&amp;#x0441;&amp;#x0442;&amp;#x043E;&amp;#x0439;
+<question-record><question></question><answer><text>inputbox, tes</text><feedback></feedback><correct>1</correct></answer><clue>inputbox, tes</clue></question-record>t                         ; &amp;#x0431;&amp;#x043B;&amp;#x043E;&amp;#x043A; &amp;#x0432;&amp;#x0432;&amp;#x043E;&amp;#x0434;&amp;#x0430; &amp;#x0442;&amp;#x0435;&amp;#x043A;&amp;#x0441;&amp;#x0442;&amp;#x0430; &amp;#x043F;&amp;#x043E;&amp;#x043B;&amp;#x044C;&amp;#x0437;&amp;#x043E;&amp;#x0432;&amp;#x0430;&amp;#x0442;&amp;#x0435;&amp;#x043B;&amp;#x0435;&amp;#x043C; &amp;#x0432; &amp;#x043F;&amp;#x0435;&amp;#x0440;&amp;#x0435;&amp;#x043C;&amp;#x0435;&amp;#x043D;&amp;#x043D;&amp;#x0443;&amp;#x044E; &quot;test&quot;
+<question-record><question></question><answer><text>if test =</text><feedback></feedback><correct>1</correct></answer><clue>if test =</clue></question-record>                                 ; &amp;#x0435;&amp;#x0441;&amp;#x043B;&amp;#x0438; &amp;#x0431;&amp;#x043B;&amp;#x043E;&amp;#x043A; &amp;#x043F;&amp;#x0443;&amp;#x0441;&amp;#x0442;&amp;#x043E;&amp;#x0439;
 {
 	MsgBox, you wrote nothing
 	Reload
@@ -32,7 +32,7 @@ else
 	MsgBox, all is right! 
 }
 	
-F3::reload			; &amp;#x043F;&amp;#x0435;&amp;#x043E;&amp;#x0435;&amp;#x0437;&amp;#x0430;&amp;#x0433;&amp;#x0440;&amp;#x0443;&amp;#x0437;&amp;#x043A;&amp;#x0430; &amp;#x0441;&amp;#x043A;&amp;#x0440;&amp;#x0438;&amp;#x043F;&amp;#x0442;&amp;#x0430;</gap-fill>
+<question-record><question></question><answer><text>F3::reload</text><feedback></feedback><correct>1</correct></answer><clue>F3::reload</clue></question-record>			; &amp;#x043F;&amp;#x0435;&amp;#x043E;&amp;#x0435;&amp;#x0437;&amp;#x0430;&amp;#x0433;&amp;#x0440;&amp;#x0443;&amp;#x0437;&amp;#x043A;&amp;#x0430; &amp;#x0441;&amp;#x043A;&amp;#x0440;&amp;#x0438;&amp;#x043F;&amp;#x0442;&amp;#x0430;</gap-fill>
 </data>
 
 <hotpot-config-file>

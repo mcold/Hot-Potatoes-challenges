@@ -4,12 +4,12 @@
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <rdf:Description rdf:about="">
     <dc:creator>mcold</dc:creator>
-    <dc:title>&amp;#x0417;&amp;#x0430;&amp;#x043F;&amp;#x0443;&amp;#x0441;&amp;#x043A; &amp;#x043F;&amp;#x0440;&amp;#x043E;&amp;#x0441;&amp;#x0442;&amp;#x043E;&amp;#x0433;&amp;#x043E; &amp;#x043F;&amp;#x0440;&amp;#x0438;&amp;#x043B;&amp;#x043E;&amp;#x0436;&amp;#x0435;&amp;#x043D;&amp;#x0438;&amp;#x044F;</dc:title>
+    <dc:title>&amp;#x041F;&amp;#x0440;&amp;#x043E;&amp;#x0446;&amp;#x0435;&amp;#x0441;&amp;#x0441;&amp;#x044B;</dc:title>
   </rdf:Description>
 </rdf:RDF><version>6</version>
 
 <data>
-<title>&amp;#x0417;&amp;#x0430;&amp;#x043F;&amp;#x0443;&amp;#x0441;&amp;#x043A; &amp;#x043F;&amp;#x0440;&amp;#x043E;&amp;#x0441;&amp;#x0442;&amp;#x043E;&amp;#x0433;&amp;#x043E; &amp;#x043F;&amp;#x0440;&amp;#x0438;&amp;#x043B;&amp;#x043E;&amp;#x0436;&amp;#x0435;&amp;#x043D;&amp;#x0438;&amp;#x044F;</title>
+<title>&amp;#x041F;&amp;#x0440;&amp;#x043E;&amp;#x0446;&amp;#x0435;&amp;#x0441;&amp;#x0441;&amp;#x044B;</title>
 
 <timer><seconds>60</seconds><include-timer>0</include-timer></timer>
 
@@ -20,16 +20,14 @@
 
 </reading>
 
-<gap-fill>import wx
+<gap-fill>-- &amp;#x0432;&amp;#x044B;&amp;#x0432;&amp;#x0435;&amp;#x0441;&amp;#x0442;&amp;#x0438; &amp;#x0441;&amp;#x043F;&amp;#x0438;&amp;#x0441;&amp;#x043E;&amp;#x043A; &amp;#x0432;&amp;#x0441;&amp;#x0435;&amp;#x0445; &amp;#x043F;&amp;#x0440;&amp;#x043E;&amp;#x0446;&amp;#x0435;&amp;#x0441;&amp;#x0441;&amp;#x043E;&amp;#x0432;
 
-class MyApp(<question-record><question></question><answer><text>wx.App</text><feedback></feedback><correct>1</correct></answer><clue>wx.App</clue></question-record>):
-    def <question-record><question></question><answer><text>OnInit(self)</text><feedback></feedback><correct>1</correct></answer><clue>OnInit(self)</clue></question-record>:
-        wx.MessageBox(&quot;Hello wxPython&quot;, &quot;wxApp&quot;)
-        return True
+<question-record><question></question><answer><text>get-process</text><feedback></feedback><correct>1</correct></answer><clue>get-process</clue></question-record> 
 
-if __name__ == &quot;__main__&quot;:
-    app = <question-record><question></question><answer><text>MyApp(False)</text><feedback></feedback><correct>1</correct></answer><clue>MyApp(False)</clue></question-record> 
-    app.<question-record><question></question><answer><text>MainLoop()</text><feedback></feedback><correct>1</correct></answer><clue>MainLoop()</clue></question-record></gap-fill>
+-- &amp;#x043E;&amp;#x0441;&amp;#x0442;&amp;#x0430;&amp;#x043D;&amp;#x043E;&amp;#x0432;&amp;#x043A;&amp;#x0430; &amp;#x043F;&amp;#x0440;&amp;#x043E;&amp;#x0446;&amp;#x0435;&amp;#x0441;&amp;#x0441;&amp;#x0430;
+
+<question-record><question></question><answer><text>Stop-Process -Name notepad</text><feedback></feedback><correct>1</correct></answer><clue>Stop-Process -Name notepad</clue></question-record>            -- &amp;#x043E;&amp;#x0441;&amp;#x0442;&amp;#x0430;&amp;#x043D;&amp;#x043E;&amp;#x0432;&amp;#x043A;&amp;#x0430; notepad
+<question-record><question></question><answer><text>Stop-Process -ID 2668</text><feedback></feedback><correct>1</correct></answer><clue>Stop-Process -ID 2668</clue></question-record>                      -- &amp;#x043E;&amp;#x0441;&amp;#x0442;&amp;#x0430;&amp;#x043D;&amp;#x043E;&amp;#x0432;&amp;#x043A;&amp;#x0430; &amp;#x043F;&amp;#x0440;&amp;#x043E;&amp;#x0446;&amp;#x0435;&amp;#x0441;&amp;#x0441;&amp;#x0430; &amp;#x2116; 2668</gap-fill>
 </data>
 
 <hotpot-config-file>

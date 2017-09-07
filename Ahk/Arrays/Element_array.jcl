@@ -58,19 +58,19 @@ Winsond
 
 lol := [&quot;Hunny&quot;,&quot;Buddy&quot;,&quot;Winsond&quot;]
 
-<question-record><question></question><answer><text></text><feedback></feedback><correct>1</correct></answer><clue></clue></question-record>                                       ; &amp;#x0434;&amp;#x043E;&amp;#x0431;&amp;#x0430;&amp;#x0432;&amp;#x043B;&amp;#x044F;&amp;#x0435;&amp;#x043C; &amp;#x044D;&amp;#x043B;&amp;#x0435;&amp;#x043C;&amp;#x0435;&amp;#x043D;&amp;#x0442; &quot;Woodro&quot;
+
 
 j := 1
 Loop, % lol.MaxIndex() - 1                             ; &amp;#x041E;&amp;#x0441;&amp;#x0442;&amp;#x0430;&amp;#x0432;&amp;#x043B;&amp;#x044F;&amp;#x0435;&amp;#x043C; &amp;#x0442;&amp;#x043E;&amp;#x043B;&amp;#x044C;&amp;#x043A;&amp;#x043E; &amp;#x043F;&amp;#x043E;&amp;#x0441;&amp;#x043B;&amp;#x0435;&amp;#x0434;&amp;#x043D;&amp;#x0438;&amp;#x0439; &amp;#x044D;&amp;#x043B;&amp;#x0435;&amp;#x043C;&amp;#x0435;&amp;#x043D;&amp;#x0442; &amp;#x043C;&amp;#x0430;&amp;#x0441;&amp;#x0441;&amp;#x0438;&amp;#x0432;&amp;#x0430;
 {
-______________<question-record><question></question><answer><text>lol.Insert(&quot;Woodro&quot;)</text><feedback></feedback><correct>1</correct></answer><clue>lol.Insert(&quot;Woodro&quot;)  </clue></question-record>               ; &amp;#x0443;&amp;#x0434;&amp;#x0430;&amp;#x043B;&amp;#x044F;&amp;#x0435;&amp;#x043C; &amp;#x044D;&amp;#x043B;&amp;#x0435;&amp;#x043C;&amp;#x0435;&amp;#x043D;&amp;#x0442;
+______________<question-record><question></question><answer><text>lol.remove(j)</text><feedback></feedback><correct>1</correct></answer><clue>lol.remove(j)</clue></question-record>               ; &amp;#x0443;&amp;#x0434;&amp;#x0430;&amp;#x043B;&amp;#x044F;&amp;#x0435;&amp;#x043C; &amp;#x044D;&amp;#x043B;&amp;#x0435;&amp;#x043C;&amp;#x0435;&amp;#x043D;&amp;#x0442;
 }
 
-MsgBox, % lol[1]
+<question-record><question></question><answer><text>lol.Insert(&quot;Woodro&quot;)</text><feedback></feedback><correct>1</correct></answer><clue>lol.Insert(&quot;Woodro&quot;)</clue></question-record>                             ; &amp;#x0432;&amp;#x0441;&amp;#x0442;&amp;#x0430;&amp;#x0432;&amp;#x043B;&amp;#x044F;&amp;#x0435;&amp;#x043C; &amp;#x044D;&amp;#x043B;&amp;#x0435;&amp;#x043C;&amp;#x0435;&amp;#x043D;&amp;#x0442; &quot;Woodro&quot; &amp;#x0432; &amp;#x043C;&amp;#x0430;&amp;#x0441;&amp;#x0441;&amp;#x0438;&amp;#x0432; 
 
 ---------------
 Winsond
----------------<question-record><question></question><answer><text>lol.remove(j)</text><feedback></feedback><correct>1</correct></answer><clue>lol.remove(j)</clue></question-record></gap-fill>
+---------------</gap-fill>
 </data>
 
 <hotpot-config-file>

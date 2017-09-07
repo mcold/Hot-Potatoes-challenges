@@ -22,13 +22,13 @@
 
 <gap-fill>F2::
 ; &amp;#x0446;&amp;#x0438;&amp;#x043A;&amp;#x043B; &amp;#x0432;&amp;#x044B;&amp;#x0432;&amp;#x043E;&amp;#x0434;&amp;#x0430; &amp;#x0441;&amp;#x043E;&amp;#x043E;&amp;#x0431;&amp;#x0449;&amp;#x0435;&amp;#x043D;&amp;#x0438;&amp;#x044F; test &amp;#x0441; &amp;#x0432;&amp;#x0440;&amp;#x0435;&amp;#x043C;&amp;#x0435;&amp;#x043D;&amp;#x043D;&amp;#x044B;&amp;#x043C; &amp;#x0438;&amp;#x043D;&amp;#x0442;&amp;#x0435;&amp;#x0440;&amp;#x0432;&amp;#x0430;&amp;#x043B;&amp;#x043E;&amp;#x043C; &amp;#x0432; 2 &amp;#x0441;
-<question-record><question></question><answer><text>Loop</text><feedback></feedback><correct>1</correct></answer><clue></clue></question-record> 
+<question-record><question></question><answer><text>Loop</text><feedback></feedback><correct>1</correct></answer><clue>Loop</clue></question-record> 
 {
-	<question-record><question></question><answer><text>MsgBox, test</text><feedback></feedback><correct>1</correct></answer><clue></clue></question-record> 
-	<question-record><question></question><answer><text>Sleep, 2000</text><feedback></feedback><correct>1</correct></answer><clue></clue></question-record> 
+	<question-record><question></question><answer><text>MsgBox, test</text><feedback></feedback><correct>1</correct></answer><clue>MsgBox, test </clue></question-record> 
+	<question-record><question></question><answer><text>Sleep, 2000</text><feedback></feedback><correct>1</correct></answer><clue>Sleep, 2000</clue></question-record> 
 }
 
-F3::<question-record><question></question><answer><text>Reload</text><feedback></feedback><correct>1</correct></answer><clue></clue></question-record>						; &amp;#x043F;&amp;#x0435;&amp;#x0440;&amp;#x0435;&amp;#x0437;&amp;#x0430;&amp;#x0433;&amp;#x0440;&amp;#x0443;&amp;#x0437;&amp;#x043A;&amp;#x0430; &amp;#x0441;&amp;#x043A;&amp;#x0440;&amp;#x0438;&amp;#x043F;&amp;#x0442;&amp;#x0430;</gap-fill>
+F3::<question-record><question></question><answer><text>Reload</text><feedback></feedback><correct>1</correct></answer><clue>Reload</clue></question-record>						; &amp;#x043F;&amp;#x0435;&amp;#x0440;&amp;#x0435;&amp;#x0437;&amp;#x0430;&amp;#x0433;&amp;#x0440;&amp;#x0443;&amp;#x0437;&amp;#x043A;&amp;#x0430; &amp;#x0441;&amp;#x043A;&amp;#x0440;&amp;#x0438;&amp;#x043F;&amp;#x0442;&amp;#x0430;</gap-fill>
 </data>
 
 <hotpot-config-file>

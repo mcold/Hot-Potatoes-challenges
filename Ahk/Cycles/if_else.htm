@@ -1083,14 +1083,20 @@ I = new Array();
 I[0] = new Array();
 I[0][1] = new Array();
 I[0][1][0] = new Array();
-I[0][1][0][0] = '\u0069\u006E\u0070\u0075\u0074\u0062\u006F\u0078\u002C\u0020\u0074\u0065\u0073\u0074';
-I[0][2]='';
+I[0][1][0][0] = '\u0069\u006E\u0070\u0075\u0074\u0062\u006F\u0078\u002C\u0020\u0074\u0065\u0073';
+I[0][2]='\u0069\u006E\u0070\u0075\u0074\u0062\u006F\u0078\u002C\u0020\u0074\u0065\u0073';
 
 I[1] = new Array();
 I[1][1] = new Array();
 I[1][1][0] = new Array();
 I[1][1][0][0] = '\u0069\u0066\u0020\u0074\u0065\u0073\u0074\u0020\u003D';
-I[1][2]='';
+I[1][2]='\u0069\u0066\u0020\u0074\u0065\u0073\u0074\u0020\u003D';
+
+I[2] = new Array();
+I[2][1] = new Array();
+I[2][1][0] = new Array();
+I[2][1][0][0] = '\u0046\u0033\u003A\u003A\u0072\u0065\u006C\u006F\u0061\u0064';
+I[2][2]='\u0046\u0033\u003A\u003A\u0072\u0065\u006C\u006F\u0061\u0064';
 
 
 State = new Array();
@@ -1458,7 +1464,7 @@ function TypeChars(Chars){
 <div id="ClozeDiv">
 <form id="Cloze" method="post" action="" onsubmit="return false;">
 <div class="ClozeBody">
-F2::<br /><span class="GapSpan" id="GapSpan0"><input type="text" id="Gap0" onfocus="TrackFocus(0)" onblur="LeaveGap()" class="GapBox" size="14"></input></span> ; &#x0431;&#x043B;&#x043E;&#x043A; &#x0432;&#x0432;&#x043E;&#x0434;&#x0430; &#x0442;&#x0435;&#x043A;&#x0441;&#x0442;&#x0430; &#x043F;&#x043E;&#x043B;&#x044C;&#x0437;&#x043E;&#x0432;&#x0430;&#x0442;&#x0435;&#x043B;&#x0435;&#x043C;<br /><span class="GapSpan" id="GapSpan1"><input type="text" id="Gap1" onfocus="TrackFocus(1)" onblur="LeaveGap()" class="GapBox" size="9"></input></span> ; &#x0435;&#x0441;&#x043B;&#x0438; &#x0431;&#x043B;&#x043E;&#x043A; &#x043F;&#x0443;&#x0441;&#x0442;&#x043E;&#x0439;<br />{<br />	MsgBox, you wrote nothing<br />	Reload<br />}<br />else<br />{<br />	MsgBox, all is right! <br />}<br />	<br />F3::reload			; &#x043F;&#x0435;&#x043E;&#x0435;&#x0437;&#x0430;&#x0433;&#x0440;&#x0443;&#x0437;&#x043A;&#x0430; &#x0441;&#x043A;&#x0440;&#x0438;&#x043F;&#x0442;&#x0430;
+F2::<br /><span class="GapSpan" id="GapSpan0"><input type="text" id="Gap0" onfocus="TrackFocus(0)" onblur="LeaveGap()" class="GapBox" size="13"></input><button style="line-height: 1.0" class="FuncButton" onfocus="FuncBtnOver(this)" onmouseover="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseout="FuncBtnOut(this)" onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowClue(0)">[?]</button></span>t ; &#x0431;&#x043B;&#x043E;&#x043A; &#x0432;&#x0432;&#x043E;&#x0434;&#x0430; &#x0442;&#x0435;&#x043A;&#x0441;&#x0442;&#x0430; &#x043F;&#x043E;&#x043B;&#x044C;&#x0437;&#x043E;&#x0432;&#x0430;&#x0442;&#x0435;&#x043B;&#x0435;&#x043C; &#x0432; &#x043F;&#x0435;&#x0440;&#x0435;&#x043C;&#x0435;&#x043D;&#x043D;&#x0443;&#x044E; "test"<br /><span class="GapSpan" id="GapSpan1"><input type="text" id="Gap1" onfocus="TrackFocus(1)" onblur="LeaveGap()" class="GapBox" size="9"></input><button style="line-height: 1.0" class="FuncButton" onfocus="FuncBtnOver(this)" onmouseover="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseout="FuncBtnOut(this)" onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowClue(1)">[?]</button></span> ; &#x0435;&#x0441;&#x043B;&#x0438; &#x0431;&#x043B;&#x043E;&#x043A; &#x043F;&#x0443;&#x0441;&#x0442;&#x043E;&#x0439;<br />{<br />	MsgBox, you wrote nothing<br />	Reload<br />}<br />else<br />{<br />	MsgBox, all is right! <br />}<br />	<br /><span class="GapSpan" id="GapSpan2"><input type="text" id="Gap2" onfocus="TrackFocus(2)" onblur="LeaveGap()" class="GapBox" size="10"></input><button style="line-height: 1.0" class="FuncButton" onfocus="FuncBtnOver(this)" onmouseover="FuncBtnOver(this)" onblur="FuncBtnOut(this)" onmouseout="FuncBtnOut(this)" onmousedown="FuncBtnDown(this)" onmouseup="FuncBtnOut(this)" onclick="ShowClue(2)">[?]</button></span>			; &#x043F;&#x0435;&#x043E;&#x0435;&#x0437;&#x0430;&#x0433;&#x0440;&#x0443;&#x0437;&#x043A;&#x0430; &#x0441;&#x043A;&#x0440;&#x0438;&#x043F;&#x0442;&#x0430;
 </div>
 </form>
 </div>
